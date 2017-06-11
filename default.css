@@ -1,0 +1,45 @@
+body{
+	background: url('img/background.jpg') no-repeat center fixed;
+	background-size:cover;
+	font-family: Verdana, sans-serif;
+
+
+}
+.container {
+	float:right;
+	width: 350px;
+	background: #fff;
+	position: absolute;
+	right: 10%;
+	top: 100px;
+	border-top-left-radius:2em;
+	border-bottom-right-radius:2em;
+	background-image: url('img/imgBorderRight.png');
+    background-repeat: no-repeat;
+    background-position: right top; 
+	min-height:400px;
+	
+}
+#loichuc{
+	text-align: justify;
+	margin-top:0px;
+	margin-bottom:50px;
+	margin-right:50px;
+	margin-left:20px;
+	
+}
+.container h1{
+	padding-top:50px;
+	color:#c80209;
+	margin-right:50px;
+	margin-left:20px;
+	text-align:center;
+}
+#comments{
+	position:absolute;
+	top:500px;
+	margin-top:40px;
+	right:10px;
+	background:#fff;
+	overflow-y:scroll;
+}
